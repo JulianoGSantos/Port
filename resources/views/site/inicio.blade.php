@@ -7,6 +7,7 @@
     <title>Sistema Controle</title>
 </head>
 <body>
-    ola mundo!
+    <h1>ola mundo</h1>
+    <a href=" {{ route('index') }}">cadastrar</a>
 </body>
 </html>

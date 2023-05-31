@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/create', [ClientController::class, 'store'])->name('store');
+Route::get('/create', [ClientController::class, 'index'])->name('index');
 Route::get('/inicio', [ClientController::class, 'start'])->name('start');
 
 Route::get('/', function () {
